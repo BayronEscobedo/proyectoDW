@@ -1,3 +1,19 @@
-from django.test import TestCase
+from config.wsgi import *
 
-# Create your tests here.
+
+# #listar
+# query = Type.objects.all()
+# print(query)
+#
+#Insertar
+# t =Type()
+# t.name = 'Presidente'
+# t.save()
+
+#aplicando filtros
+# obg = Type.objects.filter(name__contains='pr')
+# print(obg)
+
+
+
+

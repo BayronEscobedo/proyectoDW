@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0073968a-bc52-4c39-8778-f223c5702def" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/erp/migrations/0002_auto_20201023_1122.py" afterDir="false" />
+    <list default="true" id="0073968a-bc52-4c39-8778-f223c5702def" name="Default Changelist" comment="Modelos II">
+      <change afterPath="$PROJECT_DIR$/core/erp/choices.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/erp/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/erp/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/erp/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/erp/migrations/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/erp/migrations/0002_auto_20201023_1122.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/erp/migrations/0003_auto_20201023_1126.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/core/erp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/erp/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/erp/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/erp/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/erp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/erp/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +24,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="Setup Script" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -37,8 +43,8 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/config/settings.py" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.django.DjangoModulesConfigurable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/core/erp/tests.py" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -46,7 +52,29 @@
       <recent name="C:\Users\Compu Fire\Videos\hades\app\config" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Django server.app">
+    <configuration name="tests.py" type="PythonConfigurationType" factoryName="Python">
+      <module name="app" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\Compu Fire\Videos\hades\env\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/core/erp" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/core/erp/tests.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="app" type="Python.DjangoServer" factoryName="Django server">
       <module name="app" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -71,6 +99,10 @@
       <option name="customRunCommand" value="" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Django server.app" />
+      <item itemvalue="Python.tests.py" />
+    </list>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -88,46 +120,62 @@
       <workItem from="1603424362064" duration="573000" />
       <workItem from="1603424953255" duration="603000" />
       <workItem from="1603425573987" duration="4034000" />
-      <workItem from="1603471831087" duration="2152000" />
+      <workItem from="1603471831087" duration="11038000" />
     </task>
+    <task id="LOCAL-00001" summary="Modelos II">
+      <created>1603474064942</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1603474064942</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Modelos II" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modelos II" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="223" y="70" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603426653084">
+    <state x="223" y="70" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603474509915">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="223" y="70" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1603426653084" />
+    <state x="223" y="70" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1603474509915" />
+    <state x="406" y="11" key="CommitChangelistDialog2" timestamp="1603478839238">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="406" y="11" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1603478839238" />
     <state x="503" y="177" key="EnvironmentVariablesDialog" timestamp="1603426768163">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="503" y="177" key="EnvironmentVariablesDialog/0.0.1536.824@0.0.1536.824" timestamp="1603426768163" />
-    <state x="548" y="170" key="FileChooserDialogImpl" timestamp="1603426802496">
+    <state x="548" y="170" key="FileChooserDialogImpl" timestamp="1603474486166">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="548" y="170" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1603426802496" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1603473682966">
+    <state x="548" y="170" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1603474486166" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1603485622359">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1603473682966" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1603473682965">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1603485622359" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1603485622359">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1603473682965" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1603473682965">
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1603485622359" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1603485622358">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1603473682965" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1603473682965">
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1603485622358" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1603485622359">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1603473682965" />
-    <state x="279" y="58" key="SettingsEditor" timestamp="1603426807292">
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1603485622359" />
+    <state x="279" y="58" key="SettingsEditor" timestamp="1603481111296">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="279" y="58" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1603426807292" />
+    <state x="279" y="58" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1603481111296" />
     <state width="498" height="446" key="SwitcherDM" timestamp="1603425024140">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -143,6 +191,7 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/app$manage.coverage" NAME="manage Coverage Results" MODIFIED="1603426518860" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/app$tests_py.coverage" NAME="tests.py Coverage Results" MODIFIED="1603480946432" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/core/erp" />
     <SUITE FILE_PATH="coverage/app$Test__.coverage" NAME="Test:  Coverage Results" MODIFIED="1603426638595" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
 </project>
