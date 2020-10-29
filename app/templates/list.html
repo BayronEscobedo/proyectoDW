@@ -8,6 +8,11 @@
     <script src="{% static 'lib/datatables-1.10.20/js/dataTables.bootstrap4.min.js' %}"></script>
     <script src="{% static 'lib/datatables-1.10.20/plugins/responsive-2.2.3/js/dataTables.responsive.min.js' %}"></script>
     <script src="{% static 'lib/datatables-1.10.20/plugins/responsive-2.2.3/js/responsive.bootstrap4.min.js' %}"></script>
+
+    {% block head_list %}
+
+    {% endblock %}
+
 {% endblock %}
 
 {% block content %}
@@ -33,9 +38,9 @@
             </table>
         </div>
         <div class="card-footer">
-            <button class="btn btn-primary btn-flat btnTest">
+            <a href="{{ create_url }}" class="btn btn-primary btn-flat btnTest">
                 <i class="fas fa-plus"></i> Nuevo registro
-            </button>
+            </a>
         </div>
     </div>
 {% endblock %}
@@ -47,17 +52,20 @@
                 responsive: true,
                 autoWidth: false
             });
+
             $('.btnTest').on('click', function () {
                 $.ajax({
-                    url: '{% url 'erp:categoty_list' %}'
-                    type: 'POST'
+                    url: '{% url 'erp:category_list' %}',
+                    type: 'POST',
                     data: {id: 1},
                     dataType: 'json'
                 }).done(function (data) {
                     console.log(data);
-                }).fail(function (data) {
-                    alert("error")
-                })
+                }).fail(function (jqXHR, textStatus, errorThrown) {
+                    alert(textStatus + ': ' + errorThrown);
+                }).always(function (data) {
+
+                });
             });
         });
     </script>
