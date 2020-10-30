@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'core.erp',
     'core.homepage',
     'core.login',
+    'core.user'
 ]
 
 MIDDLEWARE = [
@@ -53,6 +54,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'crum.CurrentRequestUserMiddleware'
 ]
 
 ROOT_URLCONF = 'config.urls'
@@ -120,4 +122,14 @@ STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'static'),
 ]
 
-LOGIN_REDIRECT_URL = '/erp/category/list/'
+LOGIN_REDIRECT_URL = '/erp/dashboard/'
+
+LOGOUT_REDIRECT_URL = '/login/'
+
+LOGIN_URL = '/login/'
+
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media/')
+
+MEDIA_URL = '/media/'
+
+AUTH_USER_MODEL = 'user.User'
