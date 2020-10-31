@@ -2,21 +2,40 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d018efd-bf7a-44bd-aed4-ff8838457944" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/core/erp/static/sale/js/form.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/erp/static/sale/js/list.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/erp/templates/sale/create.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/erp/templates/sale/invoice.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/erp/templates/sale/list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/erp/views/sale/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/erp/templates/sale/delete.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/erp/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/erp/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/db.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/db.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/erp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/erp/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/erp/static/sale/js/form.js" beforeDir="false" afterPath="$PROJECT_DIR$/core/erp/static/sale/js/form.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/erp/static/sale/js/list.js" beforeDir="false" afterPath="$PROJECT_DIR$/core/erp/static/sale/js/list.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/erp/templates/sale/create.html" beforeDir="false" afterPath="$PROJECT_DIR$/core/erp/templates/sale/create.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/erp/templates/sale/invoice.html" beforeDir="false" afterPath="$PROJECT_DIR$/core/erp/templates/sale/invoice.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/erp/templates/sale/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/core/erp/templates/sale/list.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/erp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/erp/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/erp/views/sale/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/erp/views/sale/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/mystyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/mystyle.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/functions.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/functions.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
@@ -91,7 +110,7 @@
       <option name="presentableId" value="Default" />
       <updated>1604094922852</updated>
       <workItem from="1604094938487" duration="8365000" />
-      <workItem from="1604116731141" duration="3366000" />
+      <workItem from="1604116731141" duration="8981000" />
     </task>
     <servers />
   </component>
@@ -111,22 +130,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="548" y="170" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1604095234926" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1604120264708">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1604129502228">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1604120264708" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1604120264708">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1604129502228" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1604129502228">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1604120264708" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1604120264708">
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1604129502228" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1604129502228">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1604120264708" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1604120264708">
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1604129502228" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1604129502228">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1604120264708" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1604129502228" />
     <state x="187" y="66" key="SettingsEditor" timestamp="1604095805603">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
